@@ -1,11 +1,12 @@
 footer {
-  position: relative;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
   display: flex;
   background-color: #d9dcdb;
   padding-left: 10px;
+  background-image: url(../imagenes\ footer/lanin.png);
+  background-size: cover;
 }
 
 footer,
@@ -21,6 +22,7 @@ footer,
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .info {
@@ -31,6 +33,7 @@ footer,
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  background-color: #d9dcdb;
 }
 
 .logo {
@@ -48,6 +51,7 @@ footer,
   text-align: center;
   margin-bottom: 30px;
   color: #4724c7;
+  background-color: #d9dcdb;
 }
 
 .icono1,
@@ -62,6 +66,7 @@ footer,
 }
 .face {
   margin-left: 30px;
+  padding-right: 25px;
 }
 .tw {
   margin-left: 20px;
