@@ -10,7 +10,7 @@ body {
   padding-right: 10px;
 }
 section {
-  background-image: url(../imagen/meliquina.png);
+  background-image: url(../imagen/caballo.png);
   background-size: cover;
   max-width: 70%;
   height: 100%;
@@ -27,7 +27,7 @@ section {
 }
 .error-container > span {
   color: #d9dcdb;
-  text-shadow: -2px -2px rgb(13, 17, 5);
+  text-shadow: -3px -2px rgb(13, 17, 5);
 }
 
 input {
@@ -39,7 +39,7 @@ input {
   font-family: "Montserrat", sans-serif;
   font-size: 1cm;
   color: black;
-  background-color: #d9dcdb;
+  background-color: aqua;
   cursor: pointer;
   text-align: center;
 }
