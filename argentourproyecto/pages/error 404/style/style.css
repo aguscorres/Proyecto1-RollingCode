@@ -1,23 +1,33 @@
 body {
   display: flex;
   position: relative;
+  text-align: center;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  background-color: #d9dcdb;
+  margin: 30 0 40 0;
   padding-left: 10px;
   padding-right: 10px;
 }
+section {
+  background-image: url(../imagen/meliquina.png);
+  background-size: cover;
+  max-width: 70%;
+  height: 100%;
+}
 .error-container {
-  position: relative;
-  text-align: center;
   font-size: 100px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin: 20px 15px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .error-container > span {
-  color: #8ad7ae;
+  color: #d9dcdb;
+  text-shadow: -2px -2px rgb(13, 17, 5);
 }
 
 input {
@@ -29,19 +39,7 @@ input {
   font-family: "Montserrat", sans-serif;
   font-size: 1cm;
   color: black;
-  background-color: #8ad7ae;
+  background-color: #d9dcdb;
   cursor: pointer;
   text-align: center;
-}
-div {
-  text-align: center;
-}
-img {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 30px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
 }
