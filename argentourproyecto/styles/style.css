@@ -80,7 +80,6 @@ footer,
   color: aqua;
 }
 
-<<<<<<< HEAD
 /** Estilo del login **/
 .body1{
   margin: 0;
@@ -93,7 +92,7 @@ footer,
   height: 100vh
 }
 .bg{
- background-image: url(../imganes/imageneslogin/fondo2.jpg);
+ background: url(../imganes/imageneslogin/cerro.jfif);
  background-repeat: no-repeat;
  background-size: cover;
  margin: 2em;
@@ -116,6 +115,7 @@ footer,
 .inp2{
   background: rgba(5, 7, 12,0.50);
 }
+
 .for1{
   color: white;
 }
@@ -127,7 +127,7 @@ footer,
   font-size: 1em;
 }
 .regist{
-  color: white;t 
+  color: white;
 }
 /** Fin estilo login **/
 
@@ -141,6 +141,13 @@ footer,
 
 
 /** Fin estilo register **/
+
+.body1{
+  background: url(../imganes/imageneslogin/glaciarperitomoreno.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container{
   height: 30em;
   border-radius: 1em;
@@ -160,7 +167,9 @@ footer,
 .coll2{
   position: relative;
 }
-
+.textlogin{
+  background-color: none;
+}
 .coll3{
   position: relative;
 }
@@ -172,17 +181,14 @@ footer,
 .email1{
   padding: 0.5em 0 0.5em 3em;
 }
-.bg{
-  background-image: url(../imganes/imageneslogin/ps2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 /** Estilo contaco**/
 
 .bd1{
   background-color: #8ad7ae;
 }
-=======
+
+
 h5,
 .descripción {
   color: #4724c7;
@@ -195,4 +201,3 @@ p,
   color: #d9dcdb;
   background-color: #8ad7ae;
 }
->>>>>>> 44d6a03b4210c4125459662ef15a44b881f0992a
