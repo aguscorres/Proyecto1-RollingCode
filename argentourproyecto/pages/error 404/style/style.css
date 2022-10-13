@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin: 30 0 40 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section {
+  background-image: url(../imagen/caballo.png);
+  background-size: cover;
+  max-width: 70%;
+  height: 100%;
+}
+.error-container {
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 20px 15px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.error-container > span {
+  color: #d9dcdb;
+  text-shadow: -3px -2px rgb(13, 17, 5);
+}
+
+input {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1cm;
+  color: black;
+  background-color: aqua;
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,29 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Document</title>
+
+</head>
+<body class="body1">
     <header>
-      <h1>Login</h1>
-    </header>
-    <main class="container-fluid">
-      <form action="">
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" required />
-        <label for="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          required
-          maxlength="10"
-        />
-        <input type="submit" value="Registrarse" />
-      </form>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Argentour</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../pages/login.html"
+                    >Login</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/subscripcion.html"
+                    >Subscripción</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+<main class="bg1 container w-55 mt-3 rounded shadow">
+    <div class="row align-items-stretch">
+        <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+    
+        </div>
+        <div class="col p-5">
+        <!-- Inicio de login-->
+        <div>
+            <h3 class="text-tit text-center">
+                Login To Your Account
+            </h3>
+            <p class="textlogin text-center">
+                Your own digital compaign
+            </p>
+        </div>
+        <!-- Inicio Redes sociales-->
+        <div class="row">
+            <div class="col">
+            <button class="btn btn-outline-danger w-100 my-1">
+                <div class="row align-items-center">
+                    <div class="col-2 d-none d-md-block">
+                        <img src="../imganes/imageneslogin/google.png" width="40em" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">
+                        Google
+                    </div>
+                </div>
+            </button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-primary w-100 my-1">
+                    <div class="row align-items-center">
+                        <div class="col-2 d-none d-md-block">
+                            <img src="../imganes/imageneslogin/facebook.png" width="40em" alt="">
+                        </div>
+                        <div class="col-12 col-md-10 text-center">
+                            Facebook
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!--Fin redes sociales-->
+        <div class="or text-center ">
+            <h5 class="orr">-- OR --</h5>
+        </div>
+        <!-- Comienzo Formulario login-->
+            <div class="mb-3">
+                <input type="email" class="inp1 form-control" id="exampleInputEmail1" placeholder="User Name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="inp2 form-control" placeholder="Password" id="exampleInputPassword1">
+            </div>
+            <div class="row ">
+                <div class="col mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="check1 form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                <div class=" col">
+                    <a class="for1 text-center" href="#">Forgot Password</a>
+                </div>
+                </div class="col">
+                    <div>
+                    <button type="submit" class="btnlog btn btn-primary w-100 ">Login To Your Account</button>
+                    </div>
+                    <div>
+                        <p class="register1">Not A Member Me <a class="regist" href="./register.html">Register Now</a></p>
+                    </div>
+                </div>
+              
+                </form>
+        </div>
+    </div>
     </main>
-  </body>
+</body>
 </html>
