@@ -1,4 +1,5 @@
-<<<<<<< Updated upstream
+/* Fuentes */
+
 footer {
   justify-content: center;
   align-items: center;
@@ -82,7 +83,6 @@ footer,
   color: aqua;
 }
 
-<<<<<<< HEAD
 /** Estilo del login **/
 .body1{
   margin: 0;
@@ -129,36 +129,23 @@ footer,
   font-size: 1em;
 }
 .regist{
-  color: white;t 
+  color: white;
 }
+
 /** Fin estilo login **/
-=======
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
-
 /** Estilo contaco**/
-
-.bd1{
-  /* background-color: #8ad7ae; */
-}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
-h5,
-.descripción {
+.descripción h5 {
   color: #4724c7;
 }
-p,
-.slogan {
+
+ .slogan p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: #d9dcdb;
   /* background-color: #8ad7ae; */
 }
-<<<<<<< HEAD
-=======
+
 /* Pagina Nosotros */
 .pageNosotros {
   background-color: #8ad7ae;
@@ -172,6 +159,7 @@ p,
 .bd1 {
   background-color: #8ad7ae;
 }
->>>>>>> Stashed changes
-=======
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
+
+.bg-contact {
+  height: 100vh;
+}
