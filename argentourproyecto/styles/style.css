@@ -51,8 +51,9 @@ footer,
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-bottom: 30px;
+  
   color: #4724c7;
-  background-color: #d9dcdb;
+  /* background-color: #d9dcdb; */
 }
 
 .icono1,
@@ -81,6 +82,7 @@ footer,
   color: aqua;
 }
 
+<<<<<<< HEAD
 /** Estilo del login **/
 .body1{
   margin: 0;
@@ -130,58 +132,19 @@ footer,
   color: white;t 
 }
 /** Fin estilo login **/
+=======
+>>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
 
-/** Estilo de register **/
-
-
-
-
-
-
-
-
-/** Fin estilo register **/
-.container{
-  height: 30em;
-  border-radius: 1em;
-}
-.coll1{
-  position: relative;
-}
-
-.people1{
-  position: absolute;
-  margin-left: 1.3em;
-  margin-top: 0.8em;
-}
-.first{
- padding: 0.5em 0em 0.5em 3em;
-}
-.coll2{
-  position: relative;
-}
-
-.coll3{
-  position: relative;
-}
-.letter1{
-  position: absolute;
-  margin-left: 1.3em;
-  margin-top: 0.8em;
-}
-.email1{
-  padding: 0.5em 0 0.5em 3em;
-}
-.bg{
-  background-image: url(../imganes/imageneslogin/ps2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /** Estilo contaco**/
 
 .bd1{
-  background-color: #8ad7ae;
+  /* background-color: #8ad7ae; */
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
 h5,
 .descripción {
   color: #4724c7;
@@ -192,8 +155,9 @@ p,
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: #d9dcdb;
-  background-color: #8ad7ae;
+  /* background-color: #8ad7ae; */
 }
+<<<<<<< HEAD
 =======
 /* Pagina Nosotros */
 .pageNosotros {
@@ -209,3 +173,5 @@ p,
   background-color: #8ad7ae;
 }
 >>>>>>> Stashed changes
+=======
+>>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
