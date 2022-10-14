@@ -1,6 +1,14 @@
-.slide {
-  margin-top: 10px;
+.columna-1 {
+  height: 12em;
+  
 }
-.slide img {
-  height: 65vh;
+.titulo-1 {
+  color: yellow;
+}
+.main {
+  margin-left: 2em;
+}
+.figure-1 {
+  margin-top: 1.5em;
+  border-radius: 2em 2em 2em 2em;
 }
