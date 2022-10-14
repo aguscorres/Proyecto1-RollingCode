@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 footer {
   justify-content: center;
   align-items: center;
@@ -193,3 +194,18 @@ p,
   color: #d9dcdb;
   background-color: #8ad7ae;
 }
+=======
+/* Pagina Nosotros */
+.pageNosotros {
+  background-color: #8ad7ae;
+}
+
+/* Pagina Contacto */
+.pageContacto {
+  background-color: #8ad7ae;
+}
+
+.bd1 {
+  background-color: #8ad7ae;
+}
+>>>>>>> Stashed changes
