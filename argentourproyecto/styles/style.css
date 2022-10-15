@@ -97,10 +97,6 @@ footer,
   background-color: #d7d68a;
 }
 
-.pageNosotros {
-  background-color: #8ad7ae;
-}
-
 .columna-1 {
   height: 12em;
 }
@@ -113,7 +109,4 @@ footer,
 .figure-1 {
   margin-top: 1.5em;
   border-radius: 2em 2em 2em 2em;
-}
-.bg-contact {
-  height: 100vh;
 }
