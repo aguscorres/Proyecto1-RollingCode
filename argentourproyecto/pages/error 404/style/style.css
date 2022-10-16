@@ -8,23 +8,8 @@ body {
   height: 100%;
 }
 span {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  position: relative;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.container,
-span {
   color: #d62f2f;
   text-shadow: -3px -3px rgb(242, 245, 235);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   font-size: 100px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -32,7 +17,6 @@ span {
 
 input {
   margin: auto;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
@@ -40,5 +24,4 @@ input {
   color: white;
   background-color: #2364f0;
   cursor: pointer;
-  text-align: center;
 }
