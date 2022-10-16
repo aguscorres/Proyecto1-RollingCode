@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 footer {
   justify-content: center;
   align-items: center;
@@ -6,15 +5,17 @@ footer {
   display: flex;
   background-color: #d9dcdb;
   padding-left: 10px;
-  background-image: url(../imagenes\ footer/lanin.png);
+  background-image: url(../imganes/imagenesfooter/lanin.png);
   background-size: cover;
 }
 
-footer,
-.h3 {
+.islas,
+h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: #4724c7;
+  text-shadow: -2px 0 rgb(129, 203, 216), 0 2px rgb(129, 203, 216),
+    -2px 0 rgb(129, 203, 216), 0 -2px rgb(129, 203, 216);
+  color: #2364f0;
 }
 
 .redes {
@@ -46,14 +47,14 @@ footer,
   max-width: 100%;
 }
 
-footer,
-.h2 {
+.redesh2,
+h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-bottom: 30px;
-  
-  color: #4724c7;
-  /* background-color: #d9dcdb; */
+  text-shadow: -2px 0 rgb(31, 34, 34), 0 2px rgb(23, 24, 24),
+    -2px 0 rgb(18, 18, 19), 0 -2px rgb(27, 29, 29);
+  color: #d9dcdb;
 }
 
 .icono1,
@@ -79,99 +80,33 @@ footer,
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1cm;
-  color: aqua;
+  color: rgb(33, 34, 34);
+  text-shadow: -2px 0 rgb(129, 203, 216), 0 2px rgb(129, 203, 216),
+    -2px 0 rgb(129, 203, 216), 0 -2px rgb(129, 203, 216);
 }
 
-<<<<<<< HEAD
-/** Estilo del login **/
-.body1{
-  margin: 0;
-  padding: 0;
-  background-image: url(../imganes/imageneslogin/glaciarperitomoreno.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: sans-serif;
-  height: 100vh
-}
-.bg{
- background-image: url(../imganes/imageneslogin/fondo2.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- margin: 2em;
-  
-}
-.bg1{
-  background: rgba(5, 7, 12,0.30);
-}
-.text-tit{
-  color: white;
-  font-size: 2em;
-}
-.textlogin{
-  color: rgb(139, 134, 134);
-  font-size: 1em;
-}
-.inp1{
-  background: rgba(5, 7, 12,0.50);
-}
-.inp2{
-  background: rgba(5, 7, 12,0.50);
-}
-.for1{
-  color: white;
-}
-.btnlog{
-  background-color: red;
-}
-.register1{
-  color: rgb(139, 134, 134);
-  font-size: 1em;
-}
-.regist{
-  color: white;t 
-}
-/** Fin estilo login **/
-=======
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
-
-/** Estilo contaco**/
-
-.bd1{
-  /* background-color: #8ad7ae; */
-}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
-h5,
 .descripción {
   color: #4724c7;
 }
-p,
-.slogan {
+
+.slogan1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
-  color: #d9dcdb;
-  /* background-color: #8ad7ae; */
-}
-<<<<<<< HEAD
-=======
-/* Pagina Nosotros */
-.pageNosotros {
-  background-color: #8ad7ae;
+  color: white;
+  background-color: #d7d68a;
 }
 
-/* Pagina Contacto */
-.pageContacto {
-  background-color: #8ad7ae;
+.columna-1 {
+  height: 12em;
 }
-
-.bd1 {
-  background-color: #8ad7ae;
+.titulo-1 {
+  color: yellow;
 }
->>>>>>> Stashed changes
-=======
->>>>>>> 04e75004da6a0aa2e6d3863e183196b6f540c384
+.main {
+  margin-left: 2em;
+}
+.figure-1 {
+  margin-top: 1.5em;
+  border-radius: 2em 2em 2em 2em;
+}
