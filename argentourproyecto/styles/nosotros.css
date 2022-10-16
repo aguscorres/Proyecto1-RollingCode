@@ -1,11 +1,51 @@
-.pageNosotros {
-  background-color: #8ad7ae;
+.nav1 {
+  background: rgba(239, 237, 237, 0.85);
 }
 
-.c-1 {
-  background: rgba(226, 226, 226, 0.885);
+.pageNosotros {
+  background-color: rgb(232, 232, 232);
+}
+
+.section-1 {
+  background: rgba(104, 191, 178, 0.455);
+}
+
+.card0 {
+  background: rgba(122, 240, 223, 0.15);
 }
 
 .img1 {
   height: 350px;
+}
+
+.section-2 {
+  background-image: url(../IMG/section-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card1 {
+  background: rgba(236, 232, 232, 0.23);
+  width: 700px;
+}
+
+.card2 {
+  background: rgba(236, 232, 232, 0.23);
+  width: 700px;
+}
+
+.card3 {
+  background: rgba(236, 232, 232, 0.23);
+  width: 700px;
+}
+
+.card4 {
+  background: rgba(236, 232, 232, 0.23);
+  width: 700px;
+}
+
+.card5 {
+  background: rgba(236, 232, 232, 0.23);
+  width: 700px;
 }
