@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Argentour</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Pagina de Turismo">
+    <meta name="name" content="Agustin Clerici's">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/styleinicio.css">
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Argentour</title>
+   
   </head>
   <body>
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navegador-principal navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Argentour</a>
+          <a class="inicio-a navbar-brand" href="index.html">Argentour</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -34,22 +38,22 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link "
                   aria-current="page"
-                  href="./pages/login.html"
+                  href="pages/login.html"
                   >Login</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/subscripcion.html"
+                <a class="nav-link" href="pages/subscripcion.html"
                   >Subscripción</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
               </li>
             </ul>
           </div>
@@ -58,7 +62,7 @@
     </header>
     <!-- carrouseel -->
     <div class="container-fluid">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -72,7 +76,7 @@
             aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner h-5">
-          <div class="carousel-item active">
+          <div class="carousel-item active mt-5">
             <img src="./imganes/imagenesinicio//buenos aires.jpg" class="d-block w-100" alt="buenosAires" height="500px" />
           </div>
           <div class="carousel-item">
@@ -101,59 +105,19 @@
       </div>
     </div>
     <!-- Fin carrousel -->
+    
+
     <main>
-       <!-- entradas -->
-    <section class="container-fluid section1">
+      <!-- entradas -->
+    <section class="container-fluid">
       <div class="row">
-        <div class="card col-12 col-md-3 col-lg-8 mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./imganes/imagenesinicio/jujuy.jpg" class="img-fluid rounded-start figure-1" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Conocé Jujuy</h5>
-                <p class="card-text">Con montañas, valles y quebradas, atractiva e histórica, se destaca por su belleza paisajística, la calidez de su gente y su rico patrimonio cultural.</p>
-                <a href="https://prensa.jujuy.gob.ar/">Ver mas</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card col-12 col-md-3 col-lg-8 mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./imganes/imagenesinicio/provincia-tucuman.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Conocé Tucumán</h5>
-                <p class="card-text">La provincia invita a vivir una experiencia única entre la historia que guarda la ciudad y la magia de sus diques, cerros y valles.</p>
-                <a href="https://www.tucuman.gob.ar/noticias/">Ver mas</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card col-12 col-md-3 col-lg-8 mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./imganes/imagenesinicio/card neuquen.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Conocé Neuquen</h5>
-                <p class="card-text">Tierra generosa para los que un día llegaron a poblarla, hoy lo sigue siendo con quienes la visitan simplemente para descansar y distraerse.</p>
-                <a href="https://www.neuqueninforma.gob.ar/">Ver mas</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="col-12 col-lg-8 d-flex flex-column justify-content-center card1">
-              <div class="rounded columna-1 col-12 card card2 mb-3">
+        <div class="col-12 col-lg-8 d-flex flex-column justify-content-center">
+              <div class="rounded columna-1 col-12 card mb-3">
                 <div class="row g-0">
                   <div class="columna-img col-md-4">
                     <img src="./imganes/imagenesinicio/jujuy.jpg" class="figure-1 img-fluid" alt="...">
                   </div>
-                  <div class="col-8">
+                  <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="titulo-1 card-title">Conocé Jujuy</h5>
                       <p class="card-text">Con montañas, valles y quebradas, atractiva e histórica, se destaca por su belleza paisajística, la calidez de su gente y su rico patrimonio cultural.</p>
@@ -162,27 +126,27 @@
                   </div>
                 </div>
               </div> 
-                <div class="rounded columna-1 col-12 card card2 mb-3">
+                <div class="rounded columna-1 col-12 card mb-3">
                   <div class="row g-0">
                     <div class="columna-img col-md-4">
-                      <img src="./imganes/imagenesinicio/card neuquen.jpg" class="figure-2 img-fluid" alt="...">
+                      <img src="./imganes/imagenesinicio/muelle-2.jpg" class="figure-2 img-fluid" alt="...">
                     </div>
                     <div class="col-md-8">
-                      <div class="card-body car2">
+                      <div class="card-body">
                         <h5 class="titulo-1 card-title">Conocé Neuquen</h5>
-                        <p class="card-text">Tierra generosa para los que un día llegaron a poblarla, hoy lo sigue siendo con quienes la visitan simplemente para descansar y distraerse.</p>
+                        <p class="card-text">Tierra generosa para os que un día llegaron a poblarla, hoy lo sigue siendo con quiene la visitan simplemente para descansar y distraerse.</p>
                         <a href="https://www.neuqueninforma.gob.ar/">Ver mas</a>
                       </div>
                     </div>
                   </div>
                 </div> 
-                <div class="rounded columna-1 col-12 card card2 mb-3">
+                <div class="rounded columna-1 col-12 card mb-3">
                   <div class="row g-0">
                     <div class="columna-img col-md-4">
                       <img src="./imganes/imagenesinicio/provincia-tucuman.jpg" class="figure-3 img-fluid" alt="...">
                     </div>
                     <div class="col-md-8">
-                      <div class="card-body img-fluid">
+                      <div class="card-body">
                         <h5 class="titulo-1 card-title">Conocé Tucumán</h5>
                         <p class="card-text">La provincia invita a vivir una experiencia única entre la historia que guarda la ciudad y la magia de sus diques, cerros y valles.</p>
                         <a href="https://www.tucuman.gob.ar/noticias/">Ver mas</a>
@@ -190,31 +154,40 @@
                     </div>
                   </div>
                 </div> 
-            </div> -->
-          <div class="col-12 col-lg-4 row justify-content d-flex flex-column">
-            <form class="d-flex form1" role="search form1">
-              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </div>
+          <div class="col-4 row justify-content d-flex">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            <a href="https://www.despegar.com.ar/"> <img src="./imganes/imagenesinicio/despegar.jpeg" alt="" class="img-fluid figure-4 d-none d-sm-none d-lg-block"></a>
+            <a href="https://www.despegar.com.ar/"> <img src="./imganes/imagenesinicio/despegar.jpeg" alt="" class="figure-4"></a>
           </div>
         </div>
+      </div>
       </section>
-      <section class="galeriaimagenes row col-12 d-flex flex-column justify-content-center">
-        <div class="cardgaleria border border-5">
+      <!-- fin entradas-->
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <!-- fin entradas-->
+    <main>
+      <section class="galeriaimagenes">
+        <div class="card border border-2" style="width: 18rem;">
           <img src="./pages/galeria-imagenes/imagenes/collage.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="descripción text-center">Galeria de imagenes, descripción y enlaces oficiales de: Buenos Aires, Neuquén, Jujuy, Tucumán y Cordoba.
-             </h4>
+            <h5 class="descripción text-center">Galeria de imagenes, descripción y enlaces oficiales de: Buenos Aires, Neuquén, Jujuy, Tucumán y Cordoba.
+             </h5>
             <p class="slogan1">No dejes para mañana el viaje que puedas hacer hoy</p>
-           <div class="center d-flex justify-content-center"> <a class=" btn btn-primary  " href="./pages/galeria-imagenes/index.html" >Visitar</a></div>
-           </div>
+            <a href="./pages/galeria-imagenes/index.html" class="btn btn-primary">Visitar</a>
+          </div>
         </div>
       </section>
     </main>
     <footer class="row col-12">
-       <section class="container row col-12 border border-white d-flex flex-column-justify-content-center">
-        <div class="redes row g-0 col-12 col-lg-4 border border-5 border border-white">
+       <section class="container row col-12 border border-white">
+        <div class="redes row g-0 col-12 col-lg-5 border border-5 border border-white">
             <p><h2 class="redesh2 border border-white" >Visita nuestras redes</h2></p>
             <a class="face col-3 col-lg-3" href="./pages/error 404/index.html"><img class="icono1" src="./imganes/imagenesfooter/face.png" alt="face"></a>
             <a class="insta col-3 col-lg-3" href="https://www.instagram.com/turismonacionar/?hl=es"><img class="icono2" src="./imganes/imagenesfooter/insta.png" alt="insta"></a>
@@ -224,7 +197,7 @@
             <p><h3 class="islas ">Trata de personas es esclavitud. <br> Si sabés de algo, denuncialo al 145 ☎</h3></p>
             <img class="malvinas" src="./imganes/imagenesfooter/Las-Malvinas-son-Argentinas_PNG_.png" alt="">
         </div>
-        <div class="logo row col-12 col-lg-4">
+        <div class="logo row col-12 col-lg-3">
             <img clas="logo1" src="./imganes/imagenesfooter/logo pagina.png" alt="#">
         </div>
        </section>

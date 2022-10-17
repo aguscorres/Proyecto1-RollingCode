@@ -1,3 +1,21 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navegador-principal{
+  background: rgba(5, 7, 12, 0.7);
+}
+
+.inicio-a{
+  color: white;
+}
+/* Nav */
+.inicio-a{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+
 /** Estilo del login **/
 .body1 {
   margin: 0;
@@ -12,8 +30,9 @@
 .bg1 {
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 2em;
+  margin-top: 8em;
   background: rgba(5, 7, 12, 0.3);
+
 }
 .bg2 {
   background: url(../imganes/imageneslogin/cerro.jfif);
@@ -119,5 +138,13 @@
 }
 .recup2{
 margin-left: 30em;
-margin-top: ;
+}
+
+.img-card{
+  width: 12em;
+  margin-left: 10em;
+}
+.boton-crear{
+  color: white;
+  background-color: black;
 }

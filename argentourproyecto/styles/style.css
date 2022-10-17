@@ -1,3 +1,19 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navegador-principal{
+  background: rgba(5, 7, 12, 0.7);
+  
+}
+
+/*Nav*/
+.inicio-a{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+/**/
 footer {
   margin-top: 10px;
   display: flex;
@@ -87,3 +103,7 @@ footer,
   color: white;
   background-color: #d7d68a;
 }
+/*Carrousel*/
+/* .carousel-inner{
+  margin-top: 3em;
+} */
