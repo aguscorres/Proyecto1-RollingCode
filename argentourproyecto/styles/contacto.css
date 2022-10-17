@@ -28,6 +28,24 @@
   background-attachment: fixed;
 }
 
+.nombre-p {
+  display: flex;
+  justify-content: center;
+}
+
+.col-n {
+  color: white;
+}
+
+.nombres {
+  flex-direction: column;
+  display: flex;
+}
+
+.inc {
+  flex-direction: row;
+}
+
 .p-1 {
   color: white;
 }
