@@ -23,29 +23,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 75vh;
 }
 
 .card1 {
   background: rgba(236, 232, 232, 0.23);
-  width: 700px;
 }
 
 .card2 {
   background: rgba(236, 232, 232, 0.23);
-  width: 700px;
 }
 
 .card3 {
   background: rgba(236, 232, 232, 0.23);
-  width: 700px;
 }
 
 .card4 {
   background: rgba(236, 232, 232, 0.23);
-  width: 700px;
 }
 
 .card5 {
   background: rgba(236, 232, 232, 0.23);
-  width: 700px;
 }

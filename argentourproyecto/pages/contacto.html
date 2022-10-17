@@ -12,9 +12,9 @@
     />
     <link rel="stylesheet" href="../styles/contacto.css" />
   </head>
-  <body class="body-1 container-fluid fw-bold m-0 p-0">
+  <body class="body-1 m-0 p-0">
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="nav1 navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">Argentour</a>
           <button
@@ -53,12 +53,12 @@
       </nav>
     </header>
     <main class="page-contacto">
-      <h1 class="text-center col-xs-12 m-2 p-2">Contacto</h1>
+      <h1 class="text-center m-2 p-2">Contacto</h1>
       <br />
       <section class="bg-1 container-fluid">
         <div class="bg-contact row justify-content">
-          <div class="col-6">
-            <div class="col-xs-12 col-sm-6">
+          <div class="col-12 col-lg-6 col-md-12 g-0">
+            <div class="">
               <h2 class="hh2">Dirección</h2>
               <p class="hh2">
                 Avenida Presidente Perón 3500 - Piso 2 Oficina 5. CP (4107)
@@ -82,9 +82,9 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <form action="">
-              <h2 class="hh2">Formulario de contacto</h2>
+          <div class="row col-12 col-lg-6 col-md-12 g-0">
+            <form class="d-flex flex-column align-items-center" action="">
+              <h2 class="hh2 fw-bold">Formulario de contacto</h2>
               <input
                 placeholder="Nombre"
                 type="text"
@@ -101,7 +101,7 @@
                 required
                 class="im-2"
               />
-              <label class="col-6" for="texto">Mensaje:</label>
+              <label class="col-7" for="texto">Mensaje:</label>
               <textarea
                 name="texto"
                 id="texto"
@@ -110,7 +110,7 @@
                 maxlength="500"
                 class="im-3"
               ></textarea>
-              <input type="submit" class="col-6 w-25" />
+              <input type="submit" class="col-6 w-25 mt-2" />
             </form>
           </div>
         </div>
